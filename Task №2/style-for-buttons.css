@@ -1,0 +1,164 @@
+
+.all-buttons {
+  padding-top: 37%;
+  text-align: center;
+  width: 25vh;
+  background-color: #ece8e8;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.all-buttons .btn {
+  width: 4vh;
+  height: 4vh;
+  transform: translateY(-1350%);
+  margin-left: -1.5%;
+  position: absolute;
+  border-style: hidden;
+  background-color: #333333;
+}
+.all-buttons .btn:hover {
+  cursor: pointer;
+  border-color: currentColor;
+}
+.all-buttons .btn:nth-child(1){
+  left: 5.2%;
+  background-color: #666666;
+}
+.all-buttons .btn:nth-child(2){
+  left: 8%;
+  background-color: #999999;
+}
+.all-buttons .btn:nth-child(3){
+  left: 10.9%;
+  background-color: #FFCC66;
+}
+.all-buttons .btn:nth-child(4){
+  left: 13.8%;
+  background-color: #FFCC02;
+}
+.all-buttons .btn:nth-child(5){
+  left: 2,5%;
+  transform: translateY(-1240%);
+  background-color: #FFFF00;
+}
+.all-buttons .btn:nth-child(6){
+  left: 5.2%;
+  transform: translateY(-1240%);
+  background-color: #FFFF99;
+}
+.all-buttons .btn:nth-child(7){
+  left: 8%;
+  transform: translateY(-1240%);
+  background-color: #013300;
+}
+.all-buttons .btn:nth-child(8){
+  left: 10.9%;
+  transform: translateY(-1240%);
+  background-color: #555001;
+}
+.all-buttons .btn:nth-child(9){
+  left: 13.8%;
+  transform: translateY(-1240%);
+  background-color: #02FF00;
+}
+.all-buttons .btn:nth-child(10){
+  left: 2,5%;
+  transform: translateY(-1130%);
+  background-color: #99FF99;
+}
+.all-buttons .btn:nth-child(11){
+  left: 5.2%;
+  transform: translateY(-1130%);
+  background-color: #F00001;
+}
+.all-buttons .btn:nth-child(12){
+  left: 8%;
+  transform: translateY(-1130%);
+  background-color: #FF6600;
+}
+.all-buttons .btn:nth-child(13){
+  left: 10.9%;
+  transform: translateY(-1130%);
+  background-color: #FF9933;
+}
+.all-buttons .btn:nth-child(14){
+  left: 13.8%;
+  transform: translateY(-1130%);
+  background-color: #F5DEB3;
+}
+.all-buttons .btn:nth-child(15){
+  left: 2,5%;
+  transform: translateY(-1020%);
+  background-color: #330000;
+}
+.all-buttons .btn:nth-child(16){
+  left: 5.2%;
+  transform: translateY(-1020%);
+  background-color: #663300;
+}
+.all-buttons .btn:nth-child(17){
+  left: 8%;
+  transform: translateY(-1020%);
+  background-color: #CC6502;
+}
+.all-buttons .btn:nth-child(18){
+  left: 10.9%;
+  transform: translateY(-1020%);
+  background-color: #DEB887;
+}
+.all-buttons .btn:nth-child(19){
+  left: 13.8%;
+  transform: translateY(-1020%);
+  background-color: #AA0EFF;
+}
+.all-buttons .btn:nth-child(20){
+  left: 2,5%;
+  transform: translateY(-910%);
+  background-color: #CC65CC;
+}
+.all-buttons .btn:nth-child(21){
+  left: 5.2%;
+  transform: translateY(-910%);
+  background-color: #FF66FF;
+}
+.all-buttons .btn:nth-child(22){
+  left: 8%;
+  transform: translateY(-910%);
+  background-color: #FF99FF;
+}
+.all-buttons .btn:nth-child(23){
+  left: 10.9%;
+  transform: translateY(-910%);
+  background-color: #E8C4E7;
+}
+.all-buttons .btn:nth-child(24){
+  left: 13.8%;
+  transform: translateY(-910%);
+  background-color: #FFFFFF;
+}
+.all-buttons .btn:nth-child(25){
+  left: 2,5%;
+  transform: translateY(-1460%);
+  background-color: blue;
+}
+.all-buttons .btn:nth-child(26){
+  left: 5.2%;
+  transform: translateY(-1460%);
+  background-color: #009FFF;
+}
+.all-buttons .btn:nth-child(27){
+  left: 8%;
+  transform: translateY(-1460%);
+  background-color: #0FFFFF;
+}
+.all-buttons .btn:nth-child(28){
+  left: 10.9%;
+  transform: translateY(-1460%);
+  background-color: #BFFFFF;
+}
+.all-buttons .btn:nth-child(29){
+  left: 13.8%;
+  transform: translateY(-1460%);
+  background-color: #000;
+}

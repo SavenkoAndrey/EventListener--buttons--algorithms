@@ -1,0 +1,24 @@
+/* First button */
+body {
+  background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/2376594/pub_5f55fcc4f7495128e4a10a39_5f55fcf6019fb065e74b669e/scale_1200");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  color: saddlebrown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yellow {
+  color: yellow;
+}
+.blue {
+  color: blue;
+}
+
+
+.lightResult { 
+  font-size: 35px;
+}
+

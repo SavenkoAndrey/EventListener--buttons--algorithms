@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-for-buttons.css">
+  <link rel="stylesheet" href="buttons-effects.css">
+
+  <link rel="icon"
+    href="https://www.pinclipart.com/picdir/big/63-639505_bespoke-training-computerworld-education-logo-png-blue-clipart.png">
+
+  <script src="script.js" defer></script>
+
+  <title>Task2</title>
+</head>
+
+<body>
+  <div class="conteiner">
+    <div class="all-buttons">
+      <button class="btn" onclick="changeColor('#666666')"></button>
+      <button class="btn" onclick="changeColor('#999999')"></button>
+      <button class="btn" onclick="changeColor('#FFCC66')"></button>
+      <button class="btn" onclick="changeColor('#FFCC02')"></button>
+      <button class="btn" onclick="changeColor('#FFFF00')"></button>
+      <button class="btn" onclick="changeColor('#FFFF99')"></button>
+      <button class="btn" onclick="changeColor('#013300')"></button>
+      <button class="btn" onclick="changeColor('#555001')"></button>
+      <button class="btn" onclick="changeColor('#02FF00')"></button>
+      <button class="btn" onclick="changeColor('#99FF99')"></button>
+      <button class="btn" onclick="changeColor('#F00001')"></button>
+      <button class="btn" onclick="changeColor('#FF6600')"></button>
+      <button class="btn" onclick="changeColor('#FF9933')"></button>
+      <button class="btn" onclick="changeColor('#F5DEB3')"></button>
+      <button class="btn" onclick="changeColor('#330000')"></button>
+      <button class="btn" onclick="changeColor('#663300')"></button>
+      <button class="btn" onclick="changeColor('#CC6502')"></button>
+      <button class="btn" onclick="changeColor('#DEB887')"></button>
+      <button class="btn" onclick="changeColor('#AA0EFF')"></button>
+      <button class="btn" onclick="changeColor('#CC65CC')"></button>
+      <button class="btn" onclick="changeColor('#FF66FF')"></button>
+      <button class="btn" onclick="changeColor('#FF99FF')"></button>
+      <button class="btn" onclick="changeColor('#E8C4E7')"></button>
+      <button class="btn" onclick="changeColor('#FFFFFF')"></button>
+      <button class="btn" onclick="changeColor('#0000FF')"></button>
+      <button class="btn" onclick="changeColor('#009FFF')"></button>
+      <button class="btn" onclick="changeColor('#0FFFFF')"></button>
+      <button class="btn" onclick="changeColor('#BFFFFF')"></button>
+      <button class="btn" onclick="changeColor('#000')"></button>
+      <button class="btn" onclick="changeColor('#333333')"></button>
+      <button id="clear-button"><span>Clear</span></button>
+      <button id="save-button">Save</button>
+    </div>
+    <div class="brush-sizes">
+      <div class="brush-size" data-size="1"></div>
+      <div class="brush-size" data-size="5"></div>
+      <div class="brush-size" data-size="10"></div>
+      <div class="brush-size" data-size="20"></div>
+      <ul>
+        <li class="li-size"></li>
+        <li class="li-size"></li>
+        <li class="li-size"></li>
+        <li class="li-size"></li>
+        <li class="li-size"></li>
+      </ul>
+    </div>
+
+    <div class="canvas-content">
+      <canvas id="canvas"></canvas>
+    </div>
+    <input type="range" id="brush-size" min="1" max="20" value="5">
+
+
+  </div>
+</body>
+
+</html>
